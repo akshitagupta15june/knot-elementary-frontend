@@ -4,6 +4,9 @@ import { useNavigate } from "react-router-dom"
 import { Test } from './test'
 import LogoutButton from './LogoutButton'
 
+import TeacherView from '../pages/Flow/TeacherFlow/TeacherView'
+import ParentView from '../pages/Flow/ParentFlow/ParentView'
+
 const Authenticator = () => {
     const { user, isLoading } = useAuth0();
     const navigate = useNavigate();
@@ -58,7 +61,9 @@ const Authenticator = () => {
     return (
         <div>Authenticator
             <Test />
+           
             <LogoutButton />
+           
             {user.email} <br />
             {fetchedRole && fetchedRole[3].email}
         </div>
