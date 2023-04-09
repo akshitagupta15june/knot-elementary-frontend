@@ -2,7 +2,6 @@ import React from 'react'
 import {Card, Button, Dropdown} from 'flowbite-react'
 import { Link } from 'react-router-dom'
 export default function TeacherParentView() {
-  // I
   const ParentInfo = (email, name) => {
     return (
       <Card>

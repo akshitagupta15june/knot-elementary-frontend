@@ -14,7 +14,6 @@ export const UserView = () => {
       <div>
         <Button className="static cursor-pointer">
           <span className=''>
-            {/* <HiXMark /> */}Allo Allo
           </span>
         </Button>
       </div>
