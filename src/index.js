@@ -35,9 +35,10 @@ ReactDOM.render(
 
         <Routes>
           <Route path='/' element={<App />} />
+          <Route path='/calender' element={<Calendar />} />
           <Route path='/admin' element={<UserView />} />
 
-          <Route path='/calender' element={<Calendar />} />
+          
           <Route path='/authenticator' element={<Authenticator />} />
           {/* <Route path='/uthenticato' element={<Admin />} /> */}
           <Route path='/teacher/:id' element={<TeacherView />} />
